@@ -1,0 +1,20 @@
+[package]
+name = "bear-graphql"
+version = "0.1.0"
+authors = ["ouwenkg <2630582710@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "2.0.0"
+actix-rt = "1.0.0"
+diesel = { version = "1.4.3", features = ["postgres"] }
+dotenv = "0.9.0"
+env_logger = "0.6"
+futures = "0.3.1"
+juniper = "0.13.1"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+async-std = "1.4.0"
